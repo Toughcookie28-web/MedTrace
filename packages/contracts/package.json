@@ -1,0 +1,41 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.ts",
+    "deploy:localhost": "hardhat run scripts/deploy.ts --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.ts --network sepolia",
+    "setup-local": "hardhat run scripts/setup-local.ts --network localhost",
+    "verify": "hardhat run scripts/verify-deployment.ts",
+    "verify:localhost": "hardhat run scripts/verify-deployment.ts --network localhost",
+    "verify:sepolia": "hardhat run scripts/verify-deployment.ts --network sepolia",
+    "clean": "hardhat clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^4.0.2",
+    "@nomicfoundation/hardhat-ignition": "^3.0.3",
+    "@types/chai": "^4.3.20",
+    "@types/chai-as-promised": "^8.0.2",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.18.9",
+    "chai": "^5.3.3",
+    "ethers": "^6.15.0",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
+    "hardhat": "^3.0.7",
+    "mocha": "^11.7.4",
+    "typescript": "~5.8.0",
+    "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^3.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0"
+  }
+}

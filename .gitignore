@@ -1,0 +1,88 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+package-lock.json
+yarn.lock
+
+# Build artifacts
+dist/
+build/
+artifacts/
+cache/
+typechain-types/
+*.d.ts
+*.d.ts.map
+*.js.map
+
+# Hardhat
+deployments/
+coverage/
+coverage.json
+*.log
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Environment variables - VERY IMPORTANT
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Testing
+.coverage/
+*.lcov
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Claude AI files (do not commit)
+.claude/
+
+# Internal documentation (do not commit to GitHub)
+METAMASK_CONNECTION_DIAGNOSTIC.md
+RECEIPT_ACKNOWLEDGMENT_IMPROVEMENTS.md
+SCAN_ACKNOWLEDGE_DIAGNOSTIC_GUIDE.md
+SOLUTION_SUMMARY.md
+IMPLEMENTATION_CHECKLIST.md
+IMPLEMENTATION_STATUS.md
+FULLSTACK_IMPLEMENTATION_SUMMARY.md
+DEPLOYMENT_SUMMARY.md
+UX_Strategy.md
+DEMO_PRESENTATION_SCRIPT.md
+DEMO_TRANSCRIPT.md
+GITHUB_DOCUMENTATION_PLAN.md
+WORKFLOW_ARCHITECTURE_DIAGRAMS.md
+123.md/
+
+# Old documentation files (now in docs/ folder)
+LOCAL_TESTING_GUIDE.md
+DEPLOYMENT_GUIDE.md
+CONTRIBUTING.md
+kill-all.sh
+
+# Internal GitHub prep files (do not commit)
+docs/GITHUB_READY_CHECKLIST.md
+docs/GIT_EXPLANATION.md
+docs/DEMO.md
+
+# Legacy docs (deleted - not needed for GitHub)
+docs/CHANGELOG.md
+docs/mvp_scope.md
+docs/presentation_outline.md
