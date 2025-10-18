@@ -268,7 +268,13 @@ GET  /api/events/stream                    - SSE real-time event stream
 
 ## 📊 Use Cases
 
-### **1. Hospital Verification**
+### **1. Counterfeit Prevention**
+- Counterfeit drug appears in market with estimated $200B annual impact, estimated by the World Economic Forum (WEF)
+- Economic damage includes lost revenue and healthcare costs
+- MedTrace prevents counterfeits through blockchain verification
+- Any drug without valid NFT and custody chain is immediately flagged as suspicious
+- 
+### **2. Hospital Verification**
 - Hospital receives medication shipment
 - Scans QR code on package
 - Instantly verifies:
@@ -277,13 +283,13 @@ GET  /api/events/stream                    - SSE real-time event stream
   - ✅ Complete custody history
   - ✅ No tampering or counterfeits
 
-### **2. Patient Confidence**
+### **3. Patient Confidence**
 - Patient receives prescription
 - Scans QR code on medication bottle
 - Sees complete journey from factory to pharmacy
 - Confirms medication is genuine
 
-### **3. Regulatory Audit**
+### **4. Regulatory Audit**
 - FDA needs to audit pharmaceutical supply chain
 - Scans batch QR code or enters Token ID
 - Reviews complete history:
@@ -292,11 +298,7 @@ GET  /api/events/stream                    - SSE real-time event stream
   - Timestamps proving proper handling
   - Cryptographic signatures proving authenticity
 
-### **4. Counterfeit Prevention**
-- Counterfeit drug appears in market
-- Lacks valid NFT on blockchain
-- QR code verification fails
-- Immediately identified as fake
+
 
 ---
 
