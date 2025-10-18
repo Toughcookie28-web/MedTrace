@@ -385,8 +385,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact & Support
 
-- **Bug Reports:** [GitHub Issues](https://github.com/yourusername/medtrace/issues)
-- **Questions:** [GitHub Discussions](https://github.com/yourusername/medtrace/discussions)
+- **Bug Reports:** [GitHub Issues](https://github.com/Toughcookie28-web/medtrace/issues)
+- **Questions:** [GitHub Discussions](https://github.com/Toughcookie28-web/medtrace/discussions)
 
 **Developed by:** ZHANG Jiachen | [LinkedIn][https://www.linkedin.com/in/carsonzhangjc/] | [Email][e1520372@u.nus.edu]
 
