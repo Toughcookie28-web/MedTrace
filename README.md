@@ -1,7 +1,6 @@
 # MedTrace - Blockchain Pharmaceutical Supply Chain Tracking
 
-> **Ensuring drug authenticity from manufacturer to patient using blockchain, NFTs, and verifiable credentials**
-> **“With blockchain, every pill tells its story.”**
+> **Ensuring drug authenticity from manufacturer to patient using blockchain, NFTs, and verifiable credentials. With blockchain, every pill tells its story.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.20-green.svg)](https://soliditylang.org/)
